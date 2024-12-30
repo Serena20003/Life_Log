@@ -7,13 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86150E0C2BC4D7C400BC54BC /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86150DFE2BC4D7C400BC54BC /* Inter-Bold.ttf */; };
+		86150E0F2BC4D7C400BC54BC /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86150E012BC4D7C400BC54BC /* Inter-Light.ttf */; };
+		86150E112BC4D7C400BC54BC /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86150E032BC4D7C400BC54BC /* Inter-Regular.ttf */; };
+		86150E192BC4DDB300BC54BC /* TodayJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86150E182BC4DDB300BC54BC /* TodayJournalView.swift */; };
+		86150E1B2BC4DDBF00BC54BC /* MapJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86150E1A2BC4DDBF00BC54BC /* MapJournalView.swift */; };
+		86150E1D2BC4DDC700BC54BC /* CalendarJournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86150E1C2BC4DDC700BC54BC /* CalendarJournalView.swift */; };
+		868862FD2BD59027009F59AF /* TodayJournalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868862FC2BD59027009F59AF /* TodayJournalGridView.swift */; };
+		868A8FBC2BDEF54C000F33C5 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 868A8FBB2BDEF54C000F33C5 /* FirebaseFirestore */; };
+		868A8FBE2BDEF54C000F33C5 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 868A8FBD2BDEF54C000F33C5 /* FirebaseStorage */; };
+		868A8FC02BE151BD000F33C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868A8FBF2BE151BD000F33C5 /* GoogleService-Info.plist */; };
+		868A8FC12BE151BD000F33C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868A8FBF2BE151BD000F33C5 /* GoogleService-Info.plist */; };
+		868A8FC22BE151BD000F33C5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 868A8FBF2BE151BD000F33C5 /* GoogleService-Info.plist */; };
+		86A0198B2BE1CB48002A89E9 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0198A2BE1CB48002A89E9 /* LocationViewModel.swift */; };
+		86A0198F2BE2558F002A89E9 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A0198E2BE2558F002A89E9 /* CalendarView.swift */; };
+		86A019912BE266C6002A89E9 /* CalendarWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A019902BE266C6002A89E9 /* CalendarWrapperView.swift */; };
+		86A019942BE273DC002A89E9 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 86A019932BE273DC002A89E9 /* GoogleMaps */; };
+		86A019962BE273DC002A89E9 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 86A019952BE273DC002A89E9 /* GoogleMapsBase */; };
+		86A019982BE273DC002A89E9 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 86A019972BE273DC002A89E9 /* GoogleMapsCore */; };
+		86A0199A2BE2742C002A89E9 /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86A019992BE2742C002A89E9 /* GoogleMapsPrivacy.bundle */; };
+		86A019A92BE27F1A002A89E9 /* AddImageTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A019A82BE27F1A002A89E9 /* AddImageTip.swift */; };
+		86A019AB2BE27F3A002A89E9 /* CalendarTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A019AA2BE27F3A002A89E9 /* CalendarTip.swift */; };
+		86A019AD2BE27F49002A89E9 /* DescTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A019AC2BE27F49002A89E9 /* DescTip.swift */; };
+		86A019AF2BE28C8F002A89E9 /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A019AE2BE28C8F002A89E9 /* FirebaseViewModel.swift */; };
+		86A019B12BE28CB5002A89E9 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A019B02BE28CB5002A89E9 /* Log.swift */; };
+		86A019B62BE2A952002A89E9 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 86A019B52BE2A952002A89E9 /* SwiftyJSON */; };
 		86AFDEEE2BC4CF640039874C /* LiSerenaFinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AFDEED2BC4CF640039874C /* LiSerenaFinalProjectApp.swift */; };
-		86AFDEF02BC4CF640039874C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AFDEEF2BC4CF640039874C /* ContentView.swift */; };
 		86AFDEF22BC4CF660039874C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AFDEF12BC4CF660039874C /* Assets.xcassets */; };
 		86AFDEF52BC4CF660039874C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AFDEF42BC4CF660039874C /* Preview Assets.xcassets */; };
 		86AFDEFF2BC4CF670039874C /* LiSerenaFinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AFDEFE2BC4CF670039874C /* LiSerenaFinalProjectTests.swift */; };
 		86AFDF092BC4CF670039874C /* LiSerenaFinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AFDF082BC4CF670039874C /* LiSerenaFinalProjectUITests.swift */; };
 		86AFDF0B2BC4CF670039874C /* LiSerenaFinalProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AFDF0A2BC4CF670039874C /* LiSerenaFinalProjectUITestsLaunchTests.swift */; };
+		86E546642BE2FC03007F7925 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = 86E546632BE2FC03007F7925 /* SwiftUICharts */; };
+		86E5466E2BE30035007F7925 /* ConfettiView in Frameworks */ = {isa = PBXBuildFile; productRef = 86E5466D2BE30035007F7925 /* ConfettiView */; };
+		86E546702BE31A7D007F7925 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E5466F2BE31A7D007F7925 /* Entry.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +61,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		86150DFE2BC4D7C400BC54BC /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		86150E012BC4D7C400BC54BC /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		86150E032BC4D7C400BC54BC /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		86150E172BC4D7FC00BC54BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86150E182BC4DDB300BC54BC /* TodayJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayJournalView.swift; sourceTree = "<group>"; };
+		86150E1A2BC4DDBF00BC54BC /* MapJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapJournalView.swift; sourceTree = "<group>"; };
+		86150E1C2BC4DDC700BC54BC /* CalendarJournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarJournalView.swift; sourceTree = "<group>"; };
+		868862FC2BD59027009F59AF /* TodayJournalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayJournalGridView.swift; sourceTree = "<group>"; };
+		868A8FBF2BE151BD000F33C5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86A0198A2BE1CB48002A89E9 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		86A0198E2BE2558F002A89E9 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		86A019902BE266C6002A89E9 /* CalendarWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWrapperView.swift; sourceTree = "<group>"; };
+		86A019992BE2742C002A89E9 /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
+		86A019A82BE27F1A002A89E9 /* AddImageTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddImageTip.swift; sourceTree = "<group>"; };
+		86A019AA2BE27F3A002A89E9 /* CalendarTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTip.swift; sourceTree = "<group>"; };
+		86A019AC2BE27F49002A89E9 /* DescTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescTip.swift; sourceTree = "<group>"; };
+		86A019AE2BE28C8F002A89E9 /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		86A019B02BE28CB5002A89E9 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		86AFDEEA2BC4CF640039874C /* LiSerenaFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiSerenaFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AFDEED2BC4CF640039874C /* LiSerenaFinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSerenaFinalProjectApp.swift; sourceTree = "<group>"; };
-		86AFDEEF2BC4CF640039874C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		86AFDEF12BC4CF660039874C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86AFDEF42BC4CF660039874C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86AFDEFA2BC4CF670039874C /* LiSerenaFinalProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiSerenaFinalProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +88,7 @@
 		86AFDF042BC4CF670039874C /* LiSerenaFinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiSerenaFinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AFDF082BC4CF670039874C /* LiSerenaFinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSerenaFinalProjectUITests.swift; sourceTree = "<group>"; };
 		86AFDF0A2BC4CF670039874C /* LiSerenaFinalProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiSerenaFinalProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86E5466F2BE31A7D007F7925 /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +96,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A019B62BE2A952002A89E9 /* SwiftyJSON in Frameworks */,
+				86E546642BE2FC03007F7925 /* SwiftUICharts in Frameworks */,
+				86E5466E2BE30035007F7925 /* ConfettiView in Frameworks */,
+				86A019982BE273DC002A89E9 /* GoogleMapsCore in Frameworks */,
+				868A8FBC2BDEF54C000F33C5 /* FirebaseFirestore in Frameworks */,
+				868A8FBE2BDEF54C000F33C5 /* FirebaseStorage in Frameworks */,
+				86A019942BE273DC002A89E9 /* GoogleMaps in Frameworks */,
+				86A019962BE273DC002A89E9 /* GoogleMapsBase in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +127,7 @@
 		86AFDEE12BC4CF640039874C = {
 			isa = PBXGroup;
 			children = (
+				86A019992BE2742C002A89E9 /* GoogleMapsPrivacy.bundle */,
 				86AFDEEC2BC4CF640039874C /* LiSerenaFinalProject */,
 				86AFDEFD2BC4CF670039874C /* LiSerenaFinalProjectTests */,
 				86AFDF072BC4CF670039874C /* LiSerenaFinalProjectUITests */,
@@ -94,10 +148,27 @@
 		86AFDEEC2BC4CF640039874C /* LiSerenaFinalProject */ = {
 			isa = PBXGroup;
 			children = (
-				86AFDEED2BC4CF640039874C /* LiSerenaFinalProjectApp.swift */,
-				86AFDEEF2BC4CF640039874C /* ContentView.swift */,
-				86AFDEF12BC4CF660039874C /* Assets.xcassets */,
 				86AFDEF32BC4CF660039874C /* Preview Content */,
+				86AFDEF12BC4CF660039874C /* Assets.xcassets */,
+				86150E032BC4D7C400BC54BC /* Inter-Regular.ttf */,
+				86150DFE2BC4D7C400BC54BC /* Inter-Bold.ttf */,
+				86150E012BC4D7C400BC54BC /* Inter-Light.ttf */,
+				868A8FBF2BE151BD000F33C5 /* GoogleService-Info.plist */,
+				86150E172BC4D7FC00BC54BC /* Info.plist */,
+				86AFDEED2BC4CF640039874C /* LiSerenaFinalProjectApp.swift */,
+				86A019AC2BE27F49002A89E9 /* DescTip.swift */,
+				86A019AA2BE27F3A002A89E9 /* CalendarTip.swift */,
+				86A019A82BE27F1A002A89E9 /* AddImageTip.swift */,
+				86A019B02BE28CB5002A89E9 /* Log.swift */,
+				86E5466F2BE31A7D007F7925 /* Entry.swift */,
+				86A0198A2BE1CB48002A89E9 /* LocationViewModel.swift */,
+				86A019AE2BE28C8F002A89E9 /* FirebaseViewModel.swift */,
+				86150E182BC4DDB300BC54BC /* TodayJournalView.swift */,
+				868862FC2BD59027009F59AF /* TodayJournalGridView.swift */,
+				86150E1A2BC4DDBF00BC54BC /* MapJournalView.swift */,
+				86A019902BE266C6002A89E9 /* CalendarWrapperView.swift */,
+				86150E1C2BC4DDC700BC54BC /* CalendarJournalView.swift */,
+				86A0198E2BE2558F002A89E9 /* CalendarView.swift */,
 			);
 			path = LiSerenaFinalProject;
 			sourceTree = "<group>";
@@ -143,6 +214,16 @@
 			dependencies = (
 			);
 			name = LiSerenaFinalProject;
+			packageProductDependencies = (
+				868A8FBB2BDEF54C000F33C5 /* FirebaseFirestore */,
+				868A8FBD2BDEF54C000F33C5 /* FirebaseStorage */,
+				86A019932BE273DC002A89E9 /* GoogleMaps */,
+				86A019952BE273DC002A89E9 /* GoogleMapsBase */,
+				86A019972BE273DC002A89E9 /* GoogleMapsCore */,
+				86A019B52BE2A952002A89E9 /* SwiftyJSON */,
+				86E546632BE2FC03007F7925 /* SwiftUICharts */,
+				86E5466D2BE30035007F7925 /* ConfettiView */,
+			);
 			productName = LiSerenaFinalProject;
 			productReference = 86AFDEEA2BC4CF640039874C /* LiSerenaFinalProject.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +296,14 @@
 				Base,
 			);
 			mainGroup = 86AFDEE12BC4CF640039874C;
+			packageReferences = (
+				868A8FBA2BDEF54C000F33C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				86A019922BE273DC002A89E9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				86A019B42BE2A952002A89E9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				86E546622BE2FC03007F7925 /* XCRemoteSwiftPackageReference "ChartView" */,
+				86E546652BE2FD55007F7925 /* XCRemoteSwiftPackageReference "DSFSparkline" */,
+				86E5466C2BE30035007F7925 /* XCRemoteSwiftPackageReference "ConfettiView" */,
+			);
 			productRefGroup = 86AFDEEB2BC4CF640039874C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +320,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86150E112BC4D7C400BC54BC /* Inter-Regular.ttf in Resources */,
+				868A8FC02BE151BD000F33C5 /* GoogleService-Info.plist in Resources */,
 				86AFDEF52BC4CF660039874C /* Preview Assets.xcassets in Resources */,
+				86150E0C2BC4D7C400BC54BC /* Inter-Bold.ttf in Resources */,
 				86AFDEF22BC4CF660039874C /* Assets.xcassets in Resources */,
+				86A0199A2BE2742C002A89E9 /* GoogleMapsPrivacy.bundle in Resources */,
+				86150E0F2BC4D7C400BC54BC /* Inter-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868A8FC12BE151BD000F33C5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				868A8FC22BE151BD000F33C5 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +353,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86AFDEF02BC4CF640039874C /* ContentView.swift in Sources */,
+				86E546702BE31A7D007F7925 /* Entry.swift in Sources */,
+				86A019B12BE28CB5002A89E9 /* Log.swift in Sources */,
+				86150E1D2BC4DDC700BC54BC /* CalendarJournalView.swift in Sources */,
+				868862FD2BD59027009F59AF /* TodayJournalGridView.swift in Sources */,
+				86A019AB2BE27F3A002A89E9 /* CalendarTip.swift in Sources */,
 				86AFDEEE2BC4CF640039874C /* LiSerenaFinalProjectApp.swift in Sources */,
+				86150E192BC4DDB300BC54BC /* TodayJournalView.swift in Sources */,
+				86A0198F2BE2558F002A89E9 /* CalendarView.swift in Sources */,
+				86A019A92BE27F1A002A89E9 /* AddImageTip.swift in Sources */,
+				86150E1B2BC4DDBF00BC54BC /* MapJournalView.swift in Sources */,
+				86A019AF2BE28C8F002A89E9 /* FirebaseViewModel.swift in Sources */,
+				86A019AD2BE27F49002A89E9 /* DescTip.swift in Sources */,
+				86A0198B2BE1CB48002A89E9 /* LocationViewModel.swift in Sources */,
+				86A019912BE266C6002A89E9 /* CalendarWrapperView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -422,13 +530,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LiSerenaFinalProject/Preview Content\"";
+				DEVELOPMENT_TEAM = W8BG87S876;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiSerenaFinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Log";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app uses user location to log location of daily logged photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app uses photo location to show map of daily logs.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,13 +563,18 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LiSerenaFinalProject/Preview Content\"";
+				DEVELOPMENT_TEAM = W8BG87S876;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LiSerenaFinalProject/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Life Log";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app uses user location to log location of daily logged photos.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "The app uses photo location to show map of daily logs.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,7 +591,6 @@
 		86AFDF122BC4CF670039874C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -492,7 +609,6 @@
 		86AFDF132BC4CF670039874C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -511,7 +627,6 @@
 		86AFDF152BC4CF670039874C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -528,7 +643,6 @@
 		86AFDF162BC4CF670039874C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -582,6 +696,100 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		868A8FBA2BDEF54C000F33C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+		86A019922BE273DC002A89E9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		86A019B42BE2A952002A89E9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.2;
+			};
+		};
+		86E546622BE2FC03007F7925 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+		86E546652BE2FD55007F7925 /* XCRemoteSwiftPackageReference "DSFSparkline" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dagronf/DSFSparkline?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.2;
+			};
+		};
+		86E5466C2BE30035007F7925 /* XCRemoteSwiftPackageReference "ConfettiView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ziligy/ConfettiView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		868A8FBB2BDEF54C000F33C5 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 868A8FBA2BDEF54C000F33C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		868A8FBD2BDEF54C000F33C5 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 868A8FBA2BDEF54C000F33C5 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		86A019932BE273DC002A89E9 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A019922BE273DC002A89E9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		86A019952BE273DC002A89E9 /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A019922BE273DC002A89E9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		86A019972BE273DC002A89E9 /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A019922BE273DC002A89E9 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		86A019B52BE2A952002A89E9 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86A019B42BE2A952002A89E9 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		86E546632BE2FC03007F7925 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86E546622BE2FC03007F7925 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+		86E5466D2BE30035007F7925 /* ConfettiView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86E5466C2BE30035007F7925 /* XCRemoteSwiftPackageReference "ConfettiView" */;
+			productName = ConfettiView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 86AFDEE22BC4CF640039874C /* Project object */;
 }

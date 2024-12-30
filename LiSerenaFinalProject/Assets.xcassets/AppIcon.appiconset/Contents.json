@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "life_log.png",
       "idiom" : "universal",
       "platform" : "ios",
       "size" : "1024x1024"
